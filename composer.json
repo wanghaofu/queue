@@ -1,0 +1,19 @@
+{
+  "name": "common/queue",
+  "autoload": {
+    "psr-4": {
+      "Common\\Queue\\": "src"
+    }
+  },
+  "prefer-stable": true,
+  "repositories": [
+      {"type": "composer", "url": "http://toran.moetantasy.com/repo/private/"},
+      {"type": "composer", "url": "http://satis.moetantasy.com/"},
+      {"packagist": false}
+  ],
+  "require": {
+    "videlalvaro/php-amqplib": "~2.5",
+    "common/logger": ">=1.0",
+    "common/dependency": ">=1.0"
+  }
+}
