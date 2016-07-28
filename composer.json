@@ -13,7 +13,7 @@
   ],
   "require": {
     "videlalvaro/php-amqplib": "~2.5",
-    "common/logger": ">=1.0",
-    "common/dependency": ">=1.0"
+    "common/logger": "dev-master",
+    "common/dependency": "dev-master"
   }
 }
